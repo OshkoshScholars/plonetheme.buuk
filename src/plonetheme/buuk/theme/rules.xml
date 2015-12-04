@@ -7,9 +7,6 @@
   <!-- Apply the following rules to standard Plone pages -->
   <rules css:if-content="#visual-portal-wrapper">
 
-    <!--<theme href="index.html" css:if-content=".section-front-page" />
-    <theme href="index_otherpages.html" />-->
-    
     <theme href="index.html" />    
     <drop css:theme="#featured-content" css:if-not-content=".section-front-page" />
 
@@ -87,6 +84,12 @@
       css:theme-children="ol.breadcrumb"
       />
     <drop css:content="span#breadcrumbs-you-are-here" />
+    
+    <!-- drop extraneous login actions -->
+    <drop if="$anonymous" css:theme="body > div.main > div.row > div > ul"/>
+    
+    <!-- drop content views bar if not logged in -->
+    <drop if="$anonymous" css:theme="ul.nav-tabs"/>
 
     <!-- EDIT BAR (CONTENT VIEWS) -->
     <replace
@@ -120,7 +123,7 @@
     <drop
       css:content="#plone-contentmenu-workflow .arrowDownAlternative"
       />
-
+      
     <!-- CONTENT -->
     <replace
       css:content="#content"
@@ -130,12 +133,23 @@
     <replace css:content-children="#portal-column-one" css:theme-children="#left-column" />
     <replace css:content-children="#portal-column-two" css:theme-children="#right-column" />
 
+    <!-- replace fixed tab items -->
+    <replace
+    theme-children="//nav[@id='site-menu']/ul"
+    css:content-children="ul#portal-globalnav"
+    />
+    
+    <drop css:theme=".navbar-fixed-top"/>
 
     <!-- FOOTER -->
     <replace
       css:content="#portal-siteactions"
       css:theme-children="footer"
       />
+      
+    <!-- replace portal URL -->
+    <copy attributes="href" css:content="#portal-logo" css:theme="#portal_url" />
+    
 
   </rules>
 
