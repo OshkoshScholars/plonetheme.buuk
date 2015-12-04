@@ -1,4 +1,43 @@
 /* place your custom code here */
 
 .navbar-brand { display: none; }
+
 main#content { font-size: 130%; }
+
+/* fix feature image */
+
+@media screen and (min-width: 59.6875em) {
+    #header .featured-image {
+        top: -0.5em;
+    }
+}
+
+/* 34. Media query: Desktop Medium */
+@media screen and (min-width: 68.75em) {
+    #header .featured-image {
+        top: -1em;
+        max-width: 45%;
+        right: 0em;
+    }
+}
+
+/* 35. Media query: Desktop Large */
+@media screen and (min-width: 77.5em) {
+    #header .featured-image {
+        top: 3em;
+        max-width: 450px;
+        right: 1em;
+        margin: -50px 0px 0px 0px;
+    }
+}
+
+
+/* add gradient to left edge yellow bar */
+body > div.secondary-helper {
+    background: -webkit-linear-gradient(left, goldenrod, yellow, goldenrod);background:-o-linear-gradient(right,goldenrod, yellow, goldenrod);background:-moz-linear-gradient(right,goldenrod, yellow, goldenrod);background:linear-gradient(to right,goldenrod, yellow, goldenrod);
+}
+
+/* portlet font sizes */
+dl.portlet {
+    font-size: 100%;
+}
