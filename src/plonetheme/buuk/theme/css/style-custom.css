@@ -317,7 +317,7 @@ ul#titanServicesLinks li:last-child a{
 #portal-header {
     z-index:auto;
    background-color:white;
-   background-image:url('img/bg-gradient.jpg')!important;
+   background-image:url('../img/bg-gradient.jpg')!important;
    background-repeat:repeat-x !important;
    /*background-position:0px 27px !important;*/
    background-size: 1px 247px !important;
