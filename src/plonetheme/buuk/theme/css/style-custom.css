@@ -41,3 +41,295 @@ body > div.secondary-helper {
 dl.portlet {
     font-size: 100%;
 }
+
+/*==========================
+    Portal and header stuff
+===========================*/
+
+#visual-portal-wrapper {
+    width:98% !important;
+    margin-left:1% !important;
+    margin-right:auto !important;
+    
+}
+
+
+ #logo img {
+      max-width:auto !important;
+      width:150px;
+      height:70px;
+  }
+
+.headshot{
+    max-width:none !important;
+}
+
+table.full-width {
+    width:100%;
+}
+
+div#kss-spinner {
+     display: none;
+}
+.pull-left {
+    float: left;
+}
+
+/* =============================  
+    TOP LEVEL MENU BAR
+============================= */ 
+#top_level_navigation {
+    border-bottom:solid 3px white !important;
+    left:-1.5% !important;
+    padding:5px 0px 3px 3% !important;
+    text-transform:uppercase;
+    background-image:URL('top-grad.jpg');
+    background-position:top;
+    background-repeat:repeat-x;
+    background-color:#000000;
+    font-family:'Helvetica';
+    font-weight:lighter;
+    clear:both;
+    font-size:.75em;
+    /*text-align:center;*/
+    /*font-size:1em;*/
+    position:relative;
+    z-index:12; 
+    width:103% !important;
+    letter-spacing:.09em;
+
+}
+
+#topNav {
+    width:100%;
+    margin-left:0.5%;
+    margin-right:auto;
+}
+
+#top_level_navigation button {
+display:none;
+color:#a7a9ac
+
+}
+
+#top_level_navigation ul {
+  
+}
+
+#top_level_navigation li {
+        border-right:solid 1px black
+}
+
+#top_level_navigation li:last-child {
+    border:none;
+}
+
+#top_level_navigation a {
+    color:white;
+    padding:10px 10px;
+    
+}
+
+
+
+ul li#titanServicesLink.titan_servicesNav {
+    position:absolute;
+    white-space:nowrap;
+    padding-right:10px;
+    height:25px;
+
+
+
+}
+
+li#titanServicesLink.titan_servicesNav:after {
+    content:'';
+    background-image:url('orangeArrowTS.png');
+    background-repeat:no-repeat;
+    background-position:right 5px;
+    width:20px;
+    height:20px;  
+    position:absolute;
+    right:0px;
+    top:0px
+ 
+}
+/* =============================  
+    TITAN SERVICES DROPDOWN
+============================= */ 
+
+
+ul#titanServicesLinks {
+    list-style: none;
+    /*margin-top: 50;*/
+    padding: 0;    
+    position: absolute;
+    top: 25px;
+    left: 0;    
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);    
+    background: -o-linear-gradient(#444, #111);    
+    background: -ms-linear-gradient(#444, #111);    
+    background: linear-gradient(#444, #111);	
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display:none; 
+}
+
+ul#titanServicesLinks li:hover > a{
+	color: #fafafa;
+}
+
+ul#titanServicesLinks li:hover > ul{
+	display: block;
+}
+
+ul#titanServicesLinks  li{
+    float: none;
+    display: block;  
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+ul#titanServicesLinks li:last-child{   
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;    
+}
+
+ul#titanServicesLinks a{    
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+    text-align: left;
+    padding-left: 20px !important;
+}
+
+ul#titanServicesLinks a:hover{
+    background: #888888;
+	
+}
+
+ul#titanServicesLinks li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+ul#titanServicesLinks li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+
+}
+
+ul#titanServicesLinks li:first-child a:hover:after{
+    border-bottom-color: #888888; 
+}
+
+ul#titanServicesLinks li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Clear floated elements */
+#titanServicesLinks:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+/* =============================  
+    END TOP LEVEL MENU BAR
+============================= */
+
+#uwoshheader {
+    position:absolute;
+    top:15px !important;
+    left:150px !important;
+    font-size:1.75em !important;
+    width:70% !important;
+    text-align:center !important;
+    color:#760e33;
+    z-index:4;
+
+    
+}
+
+#uwoshheader span#tagLine {
+    display:block;
+    font-size:.50em;
+    text-transform:uppercase;
+    margin-top:5px;
+    color:#ad3f1e;
+    margin-left:3px
+}
+
+#mainImage{
+    margin-top:2px !important;
+    width:100%;
+}
+
+#portal-top {
+    background-color:transparent !important;
+    background-image:none !important;
+    background-position:top;
+    /*background-repeat:repeat-x;*/
+    padding:0px !important;
+
+}
+
+#portal-top .position-0{
+    margin-left:-100%;
+    width:100%;
+}
+
+#portal-columns {
+    background-color:white;
+        
+}
+
+.width-full{
+    width: 100% !important;
+}
+.position-0 {
+    margin-left:-100% !important;
+}
+
+#portal-header {
+    z-index:auto;
+   background-color:white;
+   background-image:url('img/bg-gradient.jpg')!important;
+   background-repeat:repeat-x !important;
+   /*background-position:0px 27px !important;*/
+   background-size: 1px 247px !important;
+}
+
+#portal-logo {
+   text-align:center !important;
+    margin: 0px 0px 0px 80px;
+}
+
+div#logo {
+    margin-left:-970px;
+     
+}
+

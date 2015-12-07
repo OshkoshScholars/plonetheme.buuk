@@ -149,7 +149,80 @@
       
     <!-- replace portal URL -->
     <copy attributes="href" css:content="#portal-logo" css:theme="#portal_url" />
-    
+
+    <!-- UW Oshkosh black top level nav -->
+    <before css:theme="#portal-header">
+      <div id="top_level_navigation">
+        <ul id="topNav">
+          <li class=" about_uw_oshkoshNav">
+            <a href="http://www.uwosh.edu/home/about-uw-oshkosh">About UW Oshkosh</a>
+          </li>
+          <li class=" academicsNav">
+            <a href="http://www.uwosh.edu/home/future-students/undergraduate/academics">Academics</a>
+          </li>
+          <li class=" athleticsNav">
+            <a href=" http://www.titans.uwosh.edu/">Athletics</a>
+          </li>
+          <li class=" alumniNav">
+            <a href=" http://www.uwosh.edu/alumni">Alumni</a>
+          </li>
+          <li class=" admissionsNav">
+            <a href=" http://admissions.uwosh.edu/">Admissions</a>
+          </li>
+          <li class=" administrationNav">
+            <a href="http://www.uwosh.edu/home/administration">Administration</a>
+          </li>
+          <li class=" resourcesNav">
+            <a href="http://www.uwosh.edu/home/resources">Resources</a>
+          </li>
+          <li class=" calendarsNav">
+            <a href="http://www.uwosh.edu/home/calendars">Calendars</a>
+          </li>
+          <li id="titanServicesLink" class="titan_servicesNav">
+            <a href=" http://www.uwosh.edu/home/titan-services-and-campus-resources#documentContent">Titan Services</a>
+            <div id="titanServicesLinksWrapper">
+             <ul id="titanServicesLinks">
+              <li class=" site_indexNav">
+                <a href=" http://www.uwosh.edu/home/site-index/">Site Index</a>
+              </li>
+              <li class=" directoryNav">
+                <a href=" http://www.uwosh.edu/directory/">Directory</a>
+              </li>
+              <li class=" titan_webNav">
+                <a href=" http://www.uwosh.edu/registrar/titanweb/">Titan Web</a>
+              </li>
+              <li class=" titan_filesNav">
+                <a href=" https://titanfiles.uwosh.edu/xythoswfs/webview/xythoslogin.action">Titan Files</a>
+              </li>
+              <li class=" Titan AppsNav">
+                <a href=" http://mail.google.com/">Titan Apps (email)</a>
+              </li>
+              <li class=" uw_system_portalNav">
+                <a href=" https://my.wisconsin.edu">My UW System</a>
+              </li>
+              <li class=" d2lNav">
+                <a href=" http://www.uwosh.edu/d2l/">Desire2Learn (D2L)</a>
+              </li>
+              <li class=" library_resourcesNav">
+                <a href=" http://www.uwosh.edu/library/">Polk Library</a>
+              </li>
+              <li class=" MyUWONav">
+                <a href=" http://www.uwosh.edu/myuwo/">MyUWO</a>
+              </li>
+              <li class=" OrgSyncNav">
+                <a href=" https://uwosh.collegiatelink.net/">Student Clubs &amp; Orgs</a>
+              </li>
+              <li class=" Titan JobsNav">
+                <a href=" https://www.myinterfase.com/uwosh/student/">Titan Jobs</a>
+              </li>
+              <li class=" intranetNav">
+                <a href="https://www.uwosh.edu/intranet">Intranet</a>
+              </li>
+            </ul></div>
+          </li>
+        </ul>
+      </div>
+    </before>
 
   </rules>
 

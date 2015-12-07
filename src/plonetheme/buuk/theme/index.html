@@ -57,6 +57,27 @@
 </head>
 <body>
 
+	<div id="portal-header">
+		<div id="portal-personaltools-wrapper"></div>
+		<div id="portal-searchbox"></div>
+		<div id="logo" class="cell width-1:4 position-0"> 
+			<a id="portal-logo" title="Home" accesskey="1" href="http://www.uwosh.edu">
+				<img src="img/uwosh_logo.png" 
+				alt="UW Oshkosh" title="UW Oshkosh" height="109" width="223" />
+			</a>
+		</div>
+		<div id="uwoshheader">Oshkosh Scholar</div>
+		<script type="text/javascript">
+		var navHtml = jq("#top_level_navigation").html();
+		jq("#top_level_navigation").remove();
+		jq("body").prepend('<div id="top_level_navigation"></div>');
+		jq("#top_level_navigation").html(navHtml);
+		</script>
+		<h5 class="hiddenStructure">Sections</h5>
+		<ul id="portal-globalnav"></ul>
+	</div>
+           
+
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
