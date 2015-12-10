@@ -453,3 +453,9 @@ div#footer {
   width: 124px;
   margin-right: 10px; 
 }
+
+/* LiveSearch */
+
+#LSResult {
+    right: auto;
+}

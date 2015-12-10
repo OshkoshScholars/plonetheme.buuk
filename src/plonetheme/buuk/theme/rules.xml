@@ -224,6 +224,10 @@
       </div>
     </before>
 
+    <replace css:theme-children="#panel-search" css:content-children="#portal-searchbox" />
+
+    <replace css:theme="#panel-menu" css:content="div#content" href="/contact-info" />
+
   </rules>
 
 </rules>
