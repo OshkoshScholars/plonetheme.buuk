@@ -465,3 +465,7 @@ div#footer {
 	visibility: hidden;
 	transform: translateY(0.2em);
 }
+
+div#panel-menu, div#panel-search {
+    background-color: #e6d265;
+}
