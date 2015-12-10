@@ -84,6 +84,18 @@ div#uwoshFooter {
     font-style: italic;
 }
 
+/* portlets layout */
+
+div#right-column, div#left-column {
+    width: 250px;
+    float: left;
+}
+
+main#content {
+    width: 800px;
+    float: left;
+}
+
 /* =============================  
     TOP LEVEL MENU BAR
 ============================= */ 
