@@ -469,3 +469,7 @@ div#footer {
 div#panel-menu, div#panel-search {
     background-color: #e6d265;
 }
+
+#portal-columns {
+    padding-left: 20px;
+}
