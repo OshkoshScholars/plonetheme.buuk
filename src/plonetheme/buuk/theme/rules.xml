@@ -226,7 +226,7 @@
 
     <replace css:theme-children="#panel-search" css:content-children="#portal-searchbox" />
 
-    <replace css:theme="#panel-menu" css:content="div#content" href="/contact-info" />
+    <replace css:theme-children="#panel-menu" css:content-children="div#content" href="/contact-info" />
 
   </rules>
 

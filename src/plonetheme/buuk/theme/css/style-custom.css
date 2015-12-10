@@ -459,3 +459,9 @@ div#footer {
 #LSResult {
     right: auto;
 }
+
+.secondary-links a.on em.icon-mail {
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(0.2em);
+}
