@@ -77,6 +77,11 @@ div#kss-spinner {
 
 div#uwoshFooter {
     font-family: 'Open Sans',sans-serif;
+    padding-left: 15px;
+}
+
+#address > address {
+    font-style: italic;
 }
 
 /* =============================  
