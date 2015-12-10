@@ -50,15 +50,14 @@ dl.portlet {
     width:98% !important;
     margin-left:1% !important;
     margin-right:auto !important;
-    
 }
 
 
- #logo img {
-      max-width:auto !important;
-      width:150px;
-      height:70px;
-  }
+#logo img {
+     max-width:auto !important;
+     width:150px;
+     height:70px;
+}
 
 .headshot{
     max-width:none !important;
@@ -71,8 +70,13 @@ table.full-width {
 div#kss-spinner {
      display: none;
 }
+
 .pull-left {
     float: left;
+}
+
+div#uwoshFooter {
+    font-family: 'Open Sans',sans-serif;
 }
 
 /* =============================  
@@ -97,7 +101,6 @@ div#kss-spinner {
     z-index:12; 
     width:103% !important;
     letter-spacing:.09em;
-
 }
 
 #topNav {
@@ -107,17 +110,15 @@ div#kss-spinner {
 }
 
 #top_level_navigation button {
-display:none;
-color:#a7a9ac
-
+    display:none;
+    color:#a7a9ac
 }
 
 #top_level_navigation ul {
-  
 }
 
 #top_level_navigation li {
-        border-right:solid 1px black
+    border-right:solid 1px black
 }
 
 #top_level_navigation li:last-child {
@@ -127,19 +128,13 @@ color:#a7a9ac
 #top_level_navigation a {
     color:white;
     padding:10px 10px;
-    
 }
-
-
 
 ul li#titanServicesLink.titan_servicesNav {
     position:absolute;
     white-space:nowrap;
     padding-right:10px;
     height:25px;
-
-
-
 }
 
 li#titanServicesLink.titan_servicesNav:after {
@@ -152,12 +147,11 @@ li#titanServicesLink.titan_servicesNav:after {
     position:absolute;
     right:0px;
     top:0px
- 
 }
+
 /* =============================  
     TITAN SERVICES DROPDOWN
 ============================= */ 
-
 
 ul#titanServicesLinks {
     list-style: none;
@@ -214,7 +208,6 @@ ul#titanServicesLinks a{
 
 ul#titanServicesLinks a:hover{
     background: #888888;
-	
 }
 
 ul#titanServicesLinks li:first-child a{
@@ -233,14 +226,13 @@ ul#titanServicesLinks li:first-child a:after{
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 8px solid #444;
-
 }
 
 ul#titanServicesLinks li:first-child a:hover:after{
     border-bottom-color: #888888; 
 }
 
-ul#titanServicesLinks li:last-child a{
+ul#titanServicesLinks li:last-child a {
     -moz-border-radius: 0 0 5px 5px;
     -webkit-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
@@ -270,8 +262,6 @@ ul#titanServicesLinks li:last-child a{
     text-align:center !important;
     color:#760e33;
     z-index:4;
-
-    
 }
 
 #uwoshheader span#tagLine {
@@ -294,7 +284,6 @@ ul#titanServicesLinks li:last-child a{
     background-position:top;
     /*background-repeat:repeat-x;*/
     padding:0px !important;
-
 }
 
 #portal-top .position-0{
@@ -304,12 +293,12 @@ ul#titanServicesLinks li:last-child a{
 
 #portal-columns {
     background-color:white;
-        
 }
 
 .width-full{
     width: 100% !important;
 }
+
 .position-0 {
     margin-left:-100% !important;
 }
@@ -330,10 +319,9 @@ ul#titanServicesLinks li:last-child a{
 
 div#logo {
     margin-left:-970px;
-     
 }
 
-div#portal-footer{
+div#portal-footer {
     background-color: #444;
     text-align: center;
     text-transform: uppercase;
@@ -344,6 +332,7 @@ div#portal-footer{
     clear: left;
     letter-spacing:0.1em;
 }
+
 #uwo-footer {
     text-align: left;
     font-style: normal;
@@ -417,7 +406,7 @@ div#footer {
 #footer-column-4 {
   width: 33%;
   display:inline-block;
- }
+}
 
 #footer-column-3 p{
     text-align:left;
@@ -426,7 +415,7 @@ div#footer {
 }
 
 #footer-column-4 a img {
-padding:0px 8px
+    padding:0px 8px
 }
 
 #footer-column-2 p {
